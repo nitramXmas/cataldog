@@ -1,0 +1,41 @@
+[
+
+{
+    "id": 1,
+    "breed":"Golden retriever",
+    "size":"Medium",
+    "colors": {
+        "primary":"orange"
+    },
+    "description":"Extrêmement intelligent et calme, il incarne la sérénité",
+    "image" : "https://images.unsplash.com/photo-1558788353-f76d92427f16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1938&q=80"
+
+},
+
+{
+    "id": 2,
+    "breed":"Fox terrier",
+    "size":"small",
+    "colors": {
+        "primary":"black",
+        "secondary" : "white"
+    },
+    "description":"Le Fox Terrier est un chien débordant d'énergie et de vivacité.",
+    "image" : "https://images.unsplash.com/photo-1634381798819-747988a5e5b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1965&q=80"
+
+},
+
+{
+    "id": 3,
+    "breed":"Saarloos wolf dog",
+    "size":"big",
+    "colors": {
+        "primary":"grey",
+        "secondary" : "white"
+    },
+    "description":"Le Chien loup de Saarloos est un chien puissant dont l'allure légère et souple rappelle celle du loup.",
+    "image" : "https://www.centrale-canine.fr/sites/default/files/styles/widget_slideshow_basic_image_scale_height_570/public/2018-04/CHIEN%20LOUP%20DE%20SAARLOOS_0366%20HEADER.jpg.webp?itok=MgNXLjuw"
+
+}
+
+]
