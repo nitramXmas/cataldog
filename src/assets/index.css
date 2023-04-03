@@ -1,0 +1,87 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.App h1 {
+  font-size: 3em;
+  font-weight: 800;
+}
+
+.dogs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.dogs .dog {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 1px black;
+  height: 30vh;
+  max-width: 20vw;
+  border-radius: 1.5rem;
+  text-align: center;
+  background-color: #e0dcdc;
+}
+.dogs .dog h2 {
+  font-size: 2em;
+  background-color: rgb(39, 38, 38);
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  width: 100%;
+  font-weight: 600;
+  text-align: center;
+  padding: 0.5rem;
+  height: 10%;
+  color: #dfdada;
+}
+.dogs .dog h3 {
+  font-size: 1.8em;
+  font-weight: 550;
+}
+.dogs .dog img {
+  max-width: 70%;
+  height: 50%;
+  border: 6px double black;
+  border-radius: 1.5em;
+  background-size: cover;
+}
+.dogs .dog img:hover {
+  box-shadow: 0rem 0rem 1rem 0.4rem #5f5c5c;
+}
+.dogs .dog p {
+  font-size: 1.5em;
+}
+.dogs .description {
+  height: 15%;
+  width: 80%;
+}
+
+.specs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 15%;
+  background-color: #5f5c5c;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  border-top: 1px solid black;
+  color: #e0dcdc;
+}
+.specs .size {
+  display: flex;
+  flex-direction: column;
+}
+.specs .colors {
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=index.css.map */
