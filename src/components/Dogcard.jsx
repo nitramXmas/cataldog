@@ -3,7 +3,6 @@ import Size from './Size';
 
 const Dogcard = ({ id, breed, size, colors, description, image }) => {
   const { primary, secondary } = colors;
-  //   const [dog, setDog] = useState([]);
 
   return (
     <section className="dog">
